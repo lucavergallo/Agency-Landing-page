@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./asset/images/favicon-32x32.png">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <!-- style -->
+  <link rel="stylesheet" href="./asset/scss/style.css">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+</head>
+
+<body>
+
+
+  <!-- layout-header -->
+  <header class="header">
+
+
+    <!-- component-global-nav -->
+    <nav class="global-nav" role="navigation">
+      <button id="menuBtn" class="global-nav__menu-btn"aria-expanded="false" aria-controls="menu" >
+        <span class="hide">Menu</span>
+        <img src="./asset/images/icon-hamburger.svg" alt="hamburger">
+      </button>
+
+
+      <a href="index.html" aria-label="the company's logo">
+        <img src="./asset/images/logo.svg" alt="sunnyside">
+      </a>
+
+      <ul id="menu" class="global-nav__menu">
+        <li class="global-nav__item"><a class="global-nav__link" href="#about">About</a></li>
+        <li class="global-nav__item"><a class="global-nav__link" href="#services">Services</a></li>
+        <li class="global-nav__item"><a class="global-nav__link" href="#projects">Projects</a></li>
+        <li class="global-nav__item"><a class="global-nav__link global-nav__link--current" href="#">Contact</a></li>
+      </ul>
+
+
+    </nav>
+
+    <!-- block-slogan -->
+    <h1 class="slogan">We are creatives</h1>
+
+    <!-- block-to-the-feature-section-anchor -->
+    <a class="arrow" href="#feature" aria-label="an arrow button that can take you to the feature section">
+      <img class="pic" src="./asset/images/icon-arrow-down.svg" alt="arrow">
+    </a>
+
+
+  </header>
+
+  <main class="main">
+    <!-- layout-feature -->
+    <section class="feature" id="feature">
+      <h2 class="hide">Feature</h2>
+
+      <!-- component-feature-card -->
+      <div class="feature-card">
+        <picture>
+          <source srcset="./asset/images/desktop/image-transform.jpg" media="(min-width: 760px)">
+          <img class="feature-card__pic" src="./asset/images/mobile/image-transform.jpg" alt="transform">
+        </picture>
+        <div class="feature-card__content" id="about">
+          <h3 class="feature-card__heading">Transform your brand</h3>
+          <p class="feature-card__txt">
+            We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <a class="feature-card__link feature-card__link--yellow" href="#">Learn more</a>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- component-feature-card-->
+      <div class="feature-card">
+        <picture>
+          <source srcset="./asset/images/desktop/image-stand-out.jpg" media="(min-width: 760px)">
+          <img class="feature-card__pic" src="./asset/images/mobile/image-stand-out.jpg" alt="stand_out">
+        </picture>
+        <div class="feature-card__content" id="services">
+          <h3 class="feature-card__heading">Stand out to the right audience</h3>
+          <p class="feature-card__txt">
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+            we&#39;ll
+            build and extend your brand in digital places.
+          </p>
+          <a class="feature-card__link feature-card__link--red" href="#">Learn more</a>
+        </div>
+      </div>
+
+
+      <!-- service-card-container -->
+      <div class="service-card-container">
+        <!-- component-service-card -->
+        <div class="service-card service-card--design" id="projects">
+          <h3 class="heading">Graphic Design</h3>
+          <p class="txt">
+            Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+            potential clients&#39; attention.
+          </p>
+        </div>
+        <!-- component-service-card -->
+        <div class="service-card service-card--photography">
+          <h3 class="heading">Photography</h3>
+          <p class="txt">
+            Increase your credibility by getting the most stunning, high-quality photos that improve your business
+            image.
+          </p>
+        </div>
+      </div>
+
+
+
+
+
+    </section>
+
+    <!-- layout-testimonials -->
+    <section class="testimonials">
+      <h2 class="heading">Client testimonials</h2>
+
+      <!-- client-card-container -->
+      <div class="client-card-container">
+        <!-- component-client-card -->
+        <div class="client-card">
+          <img class="client-card__avatar" src="./asset/images/image-emily.jpg" alt="Ms.emily's avatar">
+          <p class="client-card__txt">We put our trust in Sunnyside and they delivered, making sure our needs were met
+            and
+            deadlines were always
+            hit.</p>
+          <h3 class="client-card__name">Emily R.</h4>
+            <p class="client-card__occupation">Marketing Director</p>
+        </div>
+        <!-- component-client-card -->
+        <div class="client-card">
+          <img class="client-card__avatar" src="./asset/images/image-thomas.jpg" alt="Mr.thomas's avatar">
+          <p class="client-card__txt">Sunnyside&#39;s enthusiasm coupled with their keen interest in our brand’s success
+            made
+            it a satisfying and
+            enjoyable
+            experience.</p>
+          <h3 class="client-card__name">Thomas S.</h4>
+            <p class="client-card__occupation">Chief Operating Officer</p>
+        </div>
+        <!-- component-client-card -->
+        <div class="client-card">
+          <img class="client-card__avatar" src="./asset/images/image-jennie.jpg" alt="Ms.jennie's avatar">
+          <p class="client-card__txt">Incredible end result! Our sales increased over 400% when we worked with
+            Sunnyside.
+            Highly recommended!</p>
+          <h3 class="client-card__name">Jennie F.</h4>
+            <p class="client-card__occupation">Business Owner</p>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+
+
+  <!-- layout-gallery -->
+  <aside class="gallery">
+
+    <picture>
+      <source srcset="./asset/images/desktop/image-gallery-milkbottles.jpg" media="(min-width: 760px)">
+      <img class="pic" src="./asset/images/mobile/image-gallery-milkbottles.jpg" alt="milkbottles">
+    </picture>
+
+
+    <picture>
+      <source srcset="./asset/images/desktop/image-gallery-orange.jpg" media="(min-width: 760px)">
+      <img class="pic" src="./asset/images/mobile/image-gallery-orange.jpg" alt="gallery_orange">
+    </picture>
+
+    <picture>
+      <source srcset="./asset/images/desktop/image-gallery-cone.jpg" media="(min-width: 760px)">
+      <img class="pic" src="./asset/images/mobile/image-gallery-cone.jpg" alt="cone">
+    </picture>
+
+
+    <picture>
+      <source srcset="./asset/images/desktop/image-gallery-sugarcubes.jpg" media="(min-width: 760px)">
+      <img class="pic" src="./asset/images/mobile/image-gallery-sugar-cubes.jpg" alt="sugar_cubes">
+    </picture>
+
+
+  </aside>
+
+  <!-- layout-footer -->
+  <footer class="footer">
+    <!-- block-logo -->
+    <img class="logo" src="./asset/images/logo.svg" alt="sunnyside"
+    >
+    <!-- component-local-nav -->
+    <div class="local-nav">
+      <ul class="local-nav__menu">
+        <li class="local-nav__item">
+          <a class="local-nav__link" href="#about">About</a>
+        </li>
+        <li class="local-nav__item">
+          <a class="local-nav__link" href="#services">Services</a>
+        </li>
+        <li class="local-nav__item">
+          <a class="local-nav__link" href="#projects">Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- block-social -->
+    <div class="social">
+      <a href="#" class="social__link" aria-label="see more infomations on our Facebook">
+        <i class="fab fa-facebook-square"></i>
+    </a>
+      <a href="#" class="social__link" aria-label="see more infomations on our Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+      <a href="#" class="social__link" aria-label="see more infomations on our Twitter">
+        <i class="fab fa-twitter"></i>
+    </a>
+      <a href="#" class="social__link"aria-label="see more infomations on our Pinterest">
+        <i class="fab fa-pinterest"></i>
+    </a>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/lucavergallo/Agency-Landing-page">Luca Vergallo</a>.
+    </div>
+  </footer>
+
+  <!-- javascript -->
+  <script src="./asset/js/script.js"></script>
+</body>
+</html>
