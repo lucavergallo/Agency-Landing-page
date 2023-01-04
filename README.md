@@ -1,6 +1,6 @@
-# Frontend Mentor - Blogr landing page solution
+# Frontend Mentor - Agency landing page solution
 
-This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).  
+This is a solution to the [Agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).  
 
 ## Table of contents
 
@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Repository URL: [https://github.com/lucavergallo/Agency-Landing-page](https://github.com/lucavergallo/Agency-Landing-page)
-- Live Site URL: [https://blogr-landing-page-luca-vergallo.netlify.app/](https://blogr-landing-page-luca-vergallo.netlify.app/)
+- Live Site URL: [https://agency-landing-page-luca-vergallo.netlify.app/](https://agency-landing-page-luca-vergallo.netlify.app/)
 
 ## My process
 
